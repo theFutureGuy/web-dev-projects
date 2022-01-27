@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1><span>O</span>xygen <span style="color:blue">I</span>need</h1></a>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li><a href="#home" data-after="Home">Home</a></li>
+            <li><a href="#volenteers" data-after="concerts">voluenteers</a></li>
+         
+            <li><a href="#about" data-after="about">About</a></li>
+            <li><a href="#contact" data-after="contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="volenteers">
+    <div class="hero container">
+      <div>
+        <h1>Stay Home Stay <span> Safe</span></h1>
+        <h1>stay <span>away from</span></h1>
+        <h1>COVID-19<span></span></h1> 
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="concerts">
+ 
+  <div class="row">
+  <div class="column">
+ <div class="card">
+	<div class="card-image"></div>
+	<div class="card-text">
+	<span class="date">Venkata Arun Kumar</span>
+	<h2>Live Coordinator</h2>
+	<p>contact details : 9345621189</p>
+	</div>
+   <div class="card-stats">
+	<div class="stat">
+	<div class="social-menu">
+	 <ul>
+	   <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	   <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+	   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	   </ul>
+	 </div>
+	 </div>
+	 </div>
+	</div>
+	</div>
+	<!---->
+	<div class="column">
+ <div class="card">
+	<div class="card-image1"></div>
+	<div class="card-text">
+	<span class="date">Suda Naveen</span>
+	<h2>Coordinator</h2>
+	<p>contact details : 8076473211</p>
+	</div>
+   <div class="card-stats">
+	<div class="stat">
+	<div class="social-menu">
+	 <ul>
+	   <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	   <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+	   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	   </ul>
+	 </div>
+	 </div>
+	 </div>
+	</div>
+	</div>
+	<!---->
+	
+	<div class="column">
+ <div class="card">
+	<div class="card-image2"></div>
+	<div class="card-text">
+	<span class="date">Uday labishetty</span>
+	<h2>Coordinator</h2>
+	<p><b>Contact details : 7865439851</p>
+	</div>
+   <div class="card-stats">
+	<div class="stat">
+	<div class="social-menu">
+	 <ul>
+	   <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	   <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+	   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	   </ul>
+	 </div>
+	 </div>
+	 </div>
+	</div>
+	</div>
+	
+	<!----->
+	<div class="column">
+ <div class="card">
+	<div class="card-image3"></div>
+	<div class="card-text">
+	<span class="date">Ashiq</span>
+	<h2>Coordinator</h2>
+	<p>contact : 9366748892</p>
+	</div>
+   <div class="card-stats">
+	<div class="stat">
+	<div class="social-menu">
+	 <ul>
+	   <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	   <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+	   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	   </ul>
+	 </div>
+	 </div>
+	 </div>
+	</div>
+	</div>
+	</div>
+	</section>
+	
+	
+	
+  
+  <!-- End Service Section -->
+
+
+ 
+
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="oxygen.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>us</span></h1>
+        
+        <p>The Event is intiated for helping the Government and 
+		the people who most affected by people of tamilnadu 
+		and to satisfy the need of oxygen.
+		PLEASE SUPPORT !!!</p>
+		
+        <a href="#contact" class="cta">Book Now</a>
+      </div>
+    
+	</div>
+      
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="content">
+	<h2>Contact Us</h2>
+	</div>
+	<div class="container">
+     <div class="contact-info">
+	    <div class="box">
+		  <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+		    <div class="text">
+			  <h3>Address</h3> 
+			  <p>14,West Veli Street ,Madurai-16 <br>625028</p>
+			 </div>
+			</div>
+			<div class="box">
+		  <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+		    <div class="text">
+			  <h3>Phone</h3>
+			  <p>0452-231-1416</p>
+			 </div>
+			</div>
+			<div class="box">
+		  <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+		    <div class="text">
+			  <h3>Email</h3>
+			  <p>OXYHELP@gmail.com</p>
+			 </div>
+			</div>
+		</div>
+		<div class="contact-form">
+		<form>
+		<h2>Send Message</h2>
+		    <div class="inputBox">
+			 <input type="text" name="" required="required">
+			 <span>Full Name</span>
+			 </div>
+			 <div class="inputBox">
+			 <input type="text" name="" required="required">
+			 <span>Email</span>
+			 </div>
+			 <div class="inputBox">
+			 <textarea required="required"></textarea>
+			 <span>Comments..</span>
+			 </div>
+			 <div class="inputBox">
+			 <input type="submit" name="" value="Send">
+			 </div>
+		</form>
+		 </div>
+	</div>
+     
+  </section>
+  <!-- End Contact Section -->
+
+ 
+</body>
+</html>
