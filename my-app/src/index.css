@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+:root {
+    --color-bg: #a4d6d638;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-white: #fff;
+    --color-light: rgba(0, 0, 0, 0.6);
+    --container-width-1g: 75%;
+    --container-width-md: 86%;
+    --container-width-ms: 90%;
+    --transition:all 400ms ease;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--color-bg); 
+    /* color: var(--color-white); */
+    line-height: 1.7;
+    background-image: none;
+}
+
+.container{
+    width: var(--container-width-1g);
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h5{
+    font-weight: 500;
+}
+
+h1{
+    font-size: 2.5 rem;
+}
+
+section{
+    margin-top: 8.5 rem;
+
+}
+
+section > h2,section > h5{
+    text-align: center;
+    color:var(--color-light);
+}
+
+section > h2{
+    color: var(--color-primary);
+    margin-bottom: 3 rem;
+}
+
+.text-light{
+    color:var(--color-light);
+}
+
+a {
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+a:hover{
+    color: var(--color-white);
+}
+
+.btn{
+    width:max-content;
+    display:inline-block;
+    color:var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor:pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.btn:hover{
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-color: transparent;
+}
+
+.btn-primary{
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+.btn-primary:hover{
+    background: var(--color-bg-variant);
+    color: var(--color-white);
+    border-color: transparent;
+}
+
+img {
+    display:block ;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+@media screen  and (max-width:1024px){
+    .container{
+        width: var(--container-width-md);
+    }
+
+    section > h2{
+        margin-bottom: 2rem;
+    }
+}
